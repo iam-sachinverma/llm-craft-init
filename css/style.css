@@ -2804,6 +2804,13 @@ a {
   display: flex;
 }
 
+@media (max-width: 767px) {
+  .services-wrapper {
+    border: 0;
+    padding: 0;
+  }
+}
+
 .services-wrapper-heading {
   grid-column-gap: 24px;
   grid-row-gap: 24px;
@@ -2934,6 +2941,7 @@ a {
   width: 100%;
   padding: 32px 40px;
   display: flex;
+  margin-bottom: 2rem;
 }
 
 .contact-banner-buttons {
@@ -3343,6 +3351,7 @@ a {
 
 .faq {
   margin-top: 100px;
+  margin-bottom: 2rem;
   padding-top: 80px;
 }
 
