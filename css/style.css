@@ -4597,7 +4597,7 @@ a {
 
   .home-hero-content {
     grid-column-gap: 120px;
-    grid-row-gap: 120px;
+    /* grid-row-gap: 120px; */
   }
 
   .home-hero-offer-text {
