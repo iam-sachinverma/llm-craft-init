@@ -2294,7 +2294,7 @@ a {
   background-position: 0 0, 50%;
   background-repeat: repeat, repeat;
   background-size: auto, 25px;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .container-wide {
@@ -2315,7 +2315,7 @@ a {
 
 .home-hero-content {
   grid-column-gap: 144px;
-  grid-row-gap: 144px;
+  grid-row-gap: 55px;
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
@@ -2529,7 +2529,7 @@ a {
 .nav {
   z-index: 100;
   position: fixed;
-  inset: auto 0% 40px;
+  inset: auto 0% 1.1rem;
 }
 
 .vertical-flex-center {
