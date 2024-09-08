@@ -311,6 +311,7 @@ html.w-mod-touch * {
   padding: 9px 15px;
   text-decoration: none;
   display: inline-block;
+  margin-top: 1.5rem;
 }
 
 input.w-button {
@@ -3661,7 +3662,7 @@ a {
   padding: 24px;
 }
 
-.contact-block {
+.contact-section {
   border-radius: 32px;
   flex-flow: column;
   padding: 40px;
@@ -4035,10 +4036,6 @@ a {
   padding-top: 80px;
   padding-bottom: 240px;
   display: none;
-}
-
-.ticker-copy {
-  margin-top: 220px;
 }
 
 .h2-copy.section-header {
@@ -4482,7 +4479,7 @@ a {
     display: flex;
   }
 
-  .contact-block {
+  .contact-section {
     height: 560px;
   }
 
@@ -4709,6 +4706,7 @@ a {
     grid-column-gap: 24px;
     grid-row-gap: 24px;
     border-radius: 24px;
+    /* padding: 32px 24px 24px; */
   }
 
   .service-block {
@@ -4877,7 +4875,7 @@ a {
     padding: 32px 24px;
   }
 
-  .contact-block {
+  .contact-section {
     border-radius: 24px;
     height: 520px;
     padding: 32px 24px;
