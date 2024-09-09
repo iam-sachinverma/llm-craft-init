@@ -1027,6 +1027,8 @@
       type="text/javascript"
     ></script>
 
+    <script src="./vendor/voiceflow.js"></script>
+
     <script type="text/javascript">
       (function (d, t) {
         var v = d.createElement(t),
@@ -1036,6 +1038,9 @@
             verify: { projectID: "66d3409f7f0b84ecf04ff112" },
             url: "https://general-runtime.voiceflow.com",
             versionID: "production",
+            assistant: {
+              extensions: [FormExtension]
+            }
           });
         };
         v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
